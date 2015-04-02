@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -51,7 +51,7 @@ TARGET_KERNEL_ARCH := arm
 
 # Enable DIAG on debug builds
 ifneq ($(TARGET_BUILD_VARIANT),user)
-TARGET_KERNEL_ADDITIONAL_CONFIG:= cyanogenmod_debug_config
+TARGET_KERNEL_ADDITIONAL_CONFIG:= mokee_debug_config
 endif
 
 # Flags
@@ -74,8 +74,8 @@ BLUETOOTH_HCI_USE_MCT := true
 # Charger
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
-# CM Hardware
-BOARD_HARDWARE_CLASS += device/oppo/msm8974-common/cmhw
+# MK Hardware
+BOARD_HARDWARE_CLASS += device/oppo/msm8974-common/mkhw
 
 # Graphics
 BOARD_EGL_CFG := device/oppo/msm8974-common/configs/egl.cfg
