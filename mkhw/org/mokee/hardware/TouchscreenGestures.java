@@ -14,11 +14,11 @@
  * limitations under the License.
  */
 
-package org.lineageos.hardware;
+package org.mokee.hardware;
 
-import org.lineageos.internal.util.FileUtils;
+import org.mokee.internal.util.FileUtils;
 
-import lineageos.hardware.TouchscreenGesture;
+import mokee.hardware.TouchscreenGesture;
 
 /**
  * Touchscreen gestures API
