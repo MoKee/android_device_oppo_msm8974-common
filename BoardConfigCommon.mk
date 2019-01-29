@@ -113,8 +113,8 @@ TARGET_KEYMASTER_WAIT_FOR_QSEE := true
 # Lights
 TARGET_PROVIDES_LIBLIGHT := true
 
-# Lineage Hardware
-JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|$(PLATFORM_PATH)/lineagehw|**/*.java
+# MK Hardware
+JAVA_SOURCE_OVERLAYS := org.mokee.hardware|$(PLATFORM_PATH)/mkhw|**/*.java
 
 # Power
 TARGET_HAS_LEGACY_POWER_STATS := true

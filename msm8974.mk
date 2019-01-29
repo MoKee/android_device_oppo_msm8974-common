@@ -65,7 +65,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
 
 # Charger
-WITH_LINEAGE_CHARGER := false
+WITH_MOKEE_CHARGER := false
 PRODUCT_PACKAGES += \
     charger_res_images
 
