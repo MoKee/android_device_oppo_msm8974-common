@@ -70,7 +70,7 @@ PRODUCT_PACKAGES += \
 # Charger
 PRODUCT_PACKAGES += \
     charger_res_images
-WITH_LINEAGE_CHARGER := false
+WITH_MOKEE_CHARGER := false
 
 # CryptfsHW
 PRODUCT_PACKAGES += \
@@ -142,7 +142,7 @@ PRODUCT_PACKAGES += \
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sysfs
+    vendor.mokee.livedisplay@2.0-service-sysfs
 
 # Media profile
 PRODUCT_COPY_FILES += \
@@ -242,11 +242,11 @@ PRODUCT_PACKAGES += \
 
 # Touch features
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch@1.0-service.oppo_msm8974
+    vendor.mokee.touch@1.0-service.oppo_msm8974
 
 # Trust HAL
 PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
+    vendor.mokee.trust@1.0-service
 
 # USB
 PRODUCT_PACKAGES += \

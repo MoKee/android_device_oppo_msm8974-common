@@ -22,7 +22,7 @@
 #include "TouchscreenGesture.h"
 
 namespace vendor {
-namespace lineage {
+namespace mokee {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
@@ -36,7 +36,7 @@ const std::map<int32_t, TouchscreenGesture::GestureInfo> TouchscreenGesture::kGe
     {5, {250, "Letter O", "/proc/touchpanel/letter_o_enable"}},
 };
 
-// Methods from ::vendor::lineage::touch::V1_0::ITouchscreenGesture follow.
+// Methods from ::vendor::mokee::touch::V1_0::ITouchscreenGesture follow.
 Return<void> TouchscreenGesture::getSupportedGestures(getSupportedGestures_cb resultCb) {
     std::vector<Gesture> gestures;
 
@@ -65,5 +65,5 @@ Return<bool> TouchscreenGesture::setGestureEnabled(const Gesture& gesture, bool 
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace touch
-}  // namespace lineage
+}  // namespace mokee
 }  // namespace vendor

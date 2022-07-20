@@ -12,7 +12,7 @@
 /dev/block/platform/msm_sdcc\.1/by-name/oppostanvbk                                 u:object_r:nvbackup_block_device:s0
 
 # Touch features
-/(vendor|system/vendor)/bin/hw/vendor\.lineage\.touch@1\.0-service\.oppo_msm8974    u:object_r:hal_lineage_touch_default_exec:s0
+/(vendor|system/vendor)/bin/hw/vendor\.mokee\.touch@1\.0-service\.oppo_msm8974    u:object_r:hal_mokee_touch_default_exec:s0
 
 # Binaries
 /(vendor|system/vendor)/bin/timekeep                                                u:object_r:timekeep_exec:s0

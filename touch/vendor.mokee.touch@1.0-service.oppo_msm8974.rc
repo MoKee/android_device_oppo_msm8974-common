@@ -14,7 +14,7 @@ on boot
     chown system system /proc/touchpanel/keypad_enable
     chmod 0660 /proc/touchpanel/keypad_enable
 
-service vendor.touch-hal-1-0 /vendor/bin/hw/vendor.lineage.touch@1.0-service.oppo_msm8974
+service vendor.touch-hal-1-0 /vendor/bin/hw/vendor.mokee.touch@1.0-service.oppo_msm8974
     class hal
     user system
     group system
